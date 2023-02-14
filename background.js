@@ -1,10 +1,10 @@
 const header = {
 	"Content-Type": "application/json",
-	"x-api-key": "x-api-key",
+	"x-api-key": "",
 };
 
 const url =
-	"https://get-the-api.com/prod/word/";
+	"";
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 	if (request.TYPE == "GET_DEFINITION") {
@@ -24,9 +24,9 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 				return response.json();
 			})
 			.then((json) => {
-				console.log(json[0].definitions[0].text[1]);
+				console.log(json[0].definitions[0].text);
 
-				sendResponse({ definition: json[0].definitions[0].text[1] });
+				sendResponse({ definition: json[0].definitions });
 			})
 			.catch((error) => {
 				sendResponse({ definition: "error" });
