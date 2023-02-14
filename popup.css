@@ -1,0 +1,65 @@
+/* Set basic styles for the page */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f6f6f6;
+}
+
+/* Style the header */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+/* Style the main content area */
+main {
+	margin: 20px;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the "Word in your clipboard" section */
+#copied {
+	margin-top: 20px;
+}
+
+#copied label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#copied p {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+	color: #0066cc;
+}
+
+/* Style the "Definition" section */
+#result {
+	margin-top: 20px;
+}
+
+#result label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#result p {
+	font-size: 16px;
+	margin: 0;
+	color: #333;
+}

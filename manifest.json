@@ -1,0 +1,19 @@
+{
+	"name": "WikiFi",
+	"version": "0.0.1",
+	"manifest_version": 3,
+	"description": "Shows Finnish word definition from Wiktionary",
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"permissions": ["activeTab", "alarms"],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["contentScript.js"]
+		}
+	]
+}
