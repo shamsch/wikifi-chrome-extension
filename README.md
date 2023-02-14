@@ -12,8 +12,7 @@ This is a Chrome extension for searching Finnish word using Wiktionary.
 6. The extension is installed.
 
 ### Snapshot
-**CURRENT VERSION**: 0.0.1
-1.  ![snapshot](snapshot_1.png)
-2.  ![snapshot](snapshot_2.png)
+**CURRENT VERSION**: 0.0.2
+1.  ![snapshot](https://i.ibb.co/4jyfkxW/image.png)
 
 **API REPOSITORY**: [wiki-lambda-api](https://github.com/shamsch/wiki-lambda-api)
